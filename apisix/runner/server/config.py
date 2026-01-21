@@ -120,7 +120,7 @@ class Config:
             exit(1)
 
         # reading config file
-        with open(cf_path, encoding=\"UTF-8\") as fs:
+        with open(cf_path, encoding="UTF-8") as fs:
             configs = yaml.safe_load(fs)
 
         # socket config
